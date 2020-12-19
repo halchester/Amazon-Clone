@@ -2,7 +2,7 @@
   height: 60px;
   display: flex;
   align-items: center;
-  background-color: rgb(32, 32, 32);
+  background-color: rgb(150, 30, 30);
   position: sticky;
   top:0;
   z-index: 100;
@@ -41,7 +41,6 @@
   margin-left:10px;
   margin-right: 10px;
   color: white;
-  text-decoration: none;
 }
 
 .header__nav{
@@ -51,7 +50,6 @@
 
 .header__option__line1{
   font-size:10px;
-
 }
 
 .header__option___line2{

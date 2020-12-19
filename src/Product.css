@@ -10,7 +10,9 @@
   max-height: 400px;
   min-width: 100px;
   z-index: 1;
+  transition: 0.4s ease;
 }
+
 
 
 .product > img{
