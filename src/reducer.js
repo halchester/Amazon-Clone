@@ -12,6 +12,12 @@ const reducer = (state, action) => {
         basket: [...state.basket, action.item],
       };
 
+    case "EMPTY_BASKET":
+      return {
+        ...state,
+        basket: [],
+      };
+
     case "REMOVE_FROM_BASKET":
       const index = state.basket.findIndex((item) => {
         return item.id === action.id;
@@ -30,10 +36,10 @@ const reducer = (state, action) => {
         basket: newBasket,
       };
     case "SET_USER":
-      return{
+      return {
         ...state,
-        user :action.user
-      }
+        user: action.user,
+      };
     default:
       return state;
   }

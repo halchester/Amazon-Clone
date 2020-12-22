@@ -37,10 +37,12 @@ function Header() {
             </span>
           </div>
         </Link>
+        <Link to = '/orders' style = {{textDecoration:'none'}}>
         <div className="header__option">
           <span className="header__option__line1">Return</span>
-          <span className="header__option__line2">your orders</span>
+          <span className="header__option__line2">&& orders</span>
         </div>
+        </Link>
         <div className="header__option">
           <span className="header__option__line1">Your</span>
           <span className="header__option__line2">Prime</span>
